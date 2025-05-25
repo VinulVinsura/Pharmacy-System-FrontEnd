@@ -16,7 +16,7 @@ FROM nginx:1.25-alpine
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copy compiled Angular app from builder
-COPY --from=builder /app/dist/pharmacy-system/browser /usr/share/nginx/html/
+COPY --from=builder /app/dist/pharmacy-app/browser /usr/share/nginx/html/
 
 # Copy custom nginx config (optional)
 # COPY nginx.conf /etc/nginx/nginx.conf
