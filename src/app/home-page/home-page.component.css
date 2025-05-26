@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   min-height: 100vh;
   width: 100%;
+  padding-top: 80px; /* Adjust based on your header height */
   background-attachment: fixed;
 }
 
