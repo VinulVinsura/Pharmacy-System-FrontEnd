@@ -8,6 +8,6 @@
   background-attachment: fixed;
 }
 
-.content {
-  backdrop-filter: brightness(0.8); /* Optional: dims background slightly for readability */
-}
+/*.content {*/
+/*  backdrop-filter: brightness(0.8); !* Optional: dims background slightly for readability *!*/
+/*}*/
